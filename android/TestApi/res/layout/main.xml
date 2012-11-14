@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:contentDescription="ds"
+            android:src="@drawable/itraff_logo1" >
+        </ImageView>
+
+        <LinearLayout style="@style/Background" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="3dp"
+                    android:text="@string/client_id"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/client_id_edit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dp"
+                    android:inputType="number|phone"
+                    android:text="" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="3dp"
+                    android:text="@string/client_api_key"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/client_api_key_edit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions"
+                    android:text="" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="2"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:paddingBottom="5dp"
+                    android:text="@string/response"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/response_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="80dp"
+                    android:background="#77FFFFFF"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="14dp" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="-12dp"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="makePhotoClick"
+                    android:text="@string/make_photo"
+                    android:textColor="@android:color/black"
+                    android:textSize="17dp"
+                    android:textStyle="bold" >
+                </Button>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" 
+                    android:layout_weight="1"
+                    android:gravity="right">
+
+                    <ImageButton
+                        android:id="@+id/info_button"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="right|bottom"
+                        android:background="@drawable/info_icon"
+                        android:contentDescription="image"
+                        android:onClick="infoClickHandler" >
+                    </ImageButton>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

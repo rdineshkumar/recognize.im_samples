@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--     <string name="info_title">Przykładowa aplikacja korzystająca z Aplikacji iTraff API</string> -->
+<!--     <string name="info_1">Zrób zdjęcie i wyszukaj podobne w swojej kolekcji.</string> -->
+    <string name="info_title">iTraff API Sample App</string>
+    <string name="info_1">Take a photo and see iTraff API in action</string>
+    <string name="itraff_api">iTraff Api</string>
+    <string name="hello">TestApi</string>
+    <string name="app_name">TestApi</string>
+    <string name="make_photo">Take a photo</string>
+    <string name="send">Send</string>
+    <string name="error">Error: </string>
+    <string name="app_error">Application error</string>
+    <string name="back">Back</string>
+    <string name="client_id">Your Client Id</string>
+    <string name="client_api_key">Your API Key</string>
+    <string name="response">Server Response:</string>
+    <string name="wait_message">Please wait…</string>
+    <string name="not_connected">No internet connection!</string>
+
+</resources>

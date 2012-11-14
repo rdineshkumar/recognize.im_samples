@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  testapi
+*/
+"Error" = "Błąd";
+"Enter Client Id" = "Wprowadź identyfikator klienta";
+"Camera not available" = "Aparat nie jest dostępny";
+"Sending photo..." = "Trwa wysyłanie zdjęcia...";
+"Connection error" = "Błąd połączenia";
